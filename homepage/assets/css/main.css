@@ -1,0 +1,38 @@
+body {
+	background-color:	lightgrey;
+	font-family: silom;
+	font-size: 30px;
+}
+
+h1 {
+color: grey;
+font-size: 50px;
+position: fixed;
+margin-left: 560px;
+margin-top: 200px;
+}
+
+.repo {
+	max-width: 500px;
+	margin-left: 100px;
+	margin-top: 100px;
+	position: fixed;
+	
+}
+
+.paradise {
+	border: 10px solid black;
+	padding: 30px;
+	font-size: 18px;
+	margin-left: 800px;
+	margin-top: 100px;
+	color: red;
+}
+
+.fun {
+	color: blue;
+}
+
+.cool {
+	color: blue;
+}
