@@ -1,6 +1,7 @@
 body {
 	font-family: akkurat;
 	background-color: lightgrey;
+	width: 1000px;
 	
 }
 
@@ -10,58 +11,61 @@ h1 {
 	color :red;
 	margin-bottom:40px;
 	margin-top: 40px; 
-	margin-left: 75px;		
+	margin-left: 250px;		
 }
 
 h2 {
 	font-size:20px;
 	margin-bottom:40px;
 	margin-top: 40px; 
-	margin-left: 75px;	
+	margin-left: 250px;	
 
 }
 
-
-p {
-	margin-top: 40px; 
-	width: 600px;
-	margin-left: 75px;
-	margin-bottom: -10px;
-}
-
-.p4 {
-	margin-bottom: 50px;
-}
-
-div {
-	 float: right;
- padding-right: 200px;
- padding-bottom: 30px;
- padding-left: 100px;
-
+.author {
+	width:200px;
+	float:right;
 }
 
 .matthew_barney {
-
- max-height: 200px;
-
-}
-
-.fire {
-	max-height: 200px;
 	max-width: 200px;
-	padding-top: 10px;
 }
 
-a {
-	color:blue;
-	float: right;
-	margin-bottom: 100px;
-	margin-right: 200px;
-	margin-top: 20px;
+p {
+	margin-bottom: 20px;
+}
+
+.col_1 {
+	color: black;
+	width: 45%;
+	display:inline-block;
+	float: left;
+	margin-left: 200px;
+	padding-right: 20px;
+
+	
+}
+
+
+.col_2 {
+	color: black;
+	margin-left: 200px;
+	width: 45%;
+	display:inline-block;
+	float: left;
+	
 }
 
 .p4 {
 	font-weight: bold;
 }
 
+.fired {
+	margin-left: 0px;
+	max-width: 50px;
+	float: left;
+}
+
+.fire {
+	max-width: 200px;
+}

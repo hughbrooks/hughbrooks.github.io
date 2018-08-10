@@ -60,6 +60,8 @@ a {
 }
 
 
+
+
 img {
 	margin-top: -200px;
 	margin-bottom: -100px;
@@ -111,9 +113,10 @@ img {
 	margin-bottom: 100px;
 }
 
-
-
-
+.images {
+	width: 400px;
+	max-width: 400px;
+}
 
 
 

@@ -1,0 +1,44 @@
+body {
+	font-family: silom;
+	background-color: lightgray;
+}
+
+a {
+	
+	font-size: 20px;
+	margin-left: 560px;
+	margin-top: 320px;
+	position: fixed;
+	padding: 25px;
+}
+
+h1 {
+	font-size: 28px;
+	margin-left: 400px;
+	margin-top: 300px;
+	position: fixed;
+	color: blue;
+	background-color: white;
+	padding: 30px;
+	border:5px dashed #000;
+}
+
+.images {
+	max-width: 600px;
+	margin: 20px;
+	float: left;
+	border: 5px solid red;
+}
+
+h2 {
+	margin-left: 50px;
+	font-size: 50px;
+	padding: 10px;
+	
+}
+
+.fa {
+	border: 5px solid red;
+}
+
+
