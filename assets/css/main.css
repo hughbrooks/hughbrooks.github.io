@@ -4,6 +4,7 @@ body {
 	font-size: 30px;
 }
 
+
 h1 {
 color: grey;
 font-size: 50px;
@@ -36,3 +37,90 @@ margin-top: 200px;
 .cool {
 	color: blue;
 }
+
+a {
+	float: right;
+	margin-left: 700px;
+	margin-top: 300px;
+	margin-right: 100px;
+}
+
+.essay {
+	margin-top: 10px;
+}
+
+.max_book_title {
+	color: blue;
+	text-align: center;
+	margin-left: 300px;
+	margin-top: 100px;
+	position: fixed;
+	font-size: 30px;
+
+}
+
+
+img {
+	margin-top: -200px;
+	margin-bottom: -100px;
+}
+
+.product {
+	margin-bottom: 120px;
+	margin-top: 300px;
+}
+
+.book1 {
+	max-width: 400px;
+	margin-top: 200px;
+	
+}
+
+.book2 {
+	max-width: 400px;
+	margin-top: 200px;
+	
+}
+
+.book3 {
+	max-width: 400px;
+	margin-top: 200px;
+	
+}
+
+.book4 {
+	max-width: 400px;
+	margin-top: 200px;
+	
+}
+
+.book5 {
+	max-width: 400px;
+	margin-top: 200px;
+	
+}
+
+.book6 {
+	max-width: 400px;
+	margin-top: 200px;
+	
+}
+
+
+.bottomlink {
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
