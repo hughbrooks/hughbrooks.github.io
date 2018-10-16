@@ -1,0 +1,318 @@
+body {
+  font-family: akkurat;
+}
+
+.left, .right {
+  height:100vh;
+  width:50vw;
+  position: fixed;
+  overflow:scroll;
+  top:0px;
+}
+
+.left{
+  left:0px;
+  background-color: lightgrey;
+}
+
+.right {
+  right:0px;
+  background-color: white;
+}
+
+.content {
+  padding: 20px;
+}
+
+.menu {
+	font-size: 20px;
+	padding: 0.5vh;
+	padding: 0.5vw;
+}
+
+.click-buy, .click-essay, .click-about, .pop{
+  cursor: pointer;
+}
+
+
+.uc {
+  text-transform: uppercase;
+  font-size: 70px;
+  padding: 0.5vh;
+  padding: 0.5vw;
+}
+
+.subheading {
+	font-size: 30px;
+}
+
+
+.contributers {
+	font-size: 20px;
+	padding: 0.5vh;
+	padding: 0.5vw;
+}
+
+.strike::before  {
+  content: " ";
+  height:4px;
+  background-color:red;
+  width:100%;
+  display:block;
+  position:absolute;
+  top:8px;
+}
+
+.strike {
+  display:inline-block;
+  position:relative;
+}
+
+.essay {
+  display:flex;
+  flex-wrap:wrap;
+  padding: 0.5vh;
+  padding: 5vw;
+
+}
+
+.essay .text {
+	font-size: 12px;
+}
+
+.text {
+  padding-bottom: 1vh;
+}
+
+.p1 {
+  font-size: 15px;
+  padding-bottom: 1vh;
+}
+
+.fs-small {
+	font-size: 30px;
+}
+
+
+
+.fs-med {
+	font-size: 70px;
+
+}
+
+.fs-large {
+	font-size: 120px;
+}
+
+.fs-small, .fs-med, .fs-large {
+  position: fixed;
+  
+}
+
+.dev-hidden {
+  visibility: hidden;
+}
+
+.blue {
+  color: blue;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+
+
+
+
+
+/* Created with http://boockup.marco.land */
+@-webkit-keyframes rotatingAnimationX {
+  0%{
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+}
+@keyframes rotatingAnimationX {
+  0%{
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+}
+@-webkit-keyframes rotatingAnimationY {
+  0%{
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+@keyframes rotatingAnimationY {
+  0%{
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+@-webkit-keyframes rotatingAnimationZ {
+  0%{
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+@keyframes rotatingAnimationZ {
+  0%{
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(211, 211, 211, 1);
+  
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.bookmain {
+  width: 50vw;
+  height: 100vh;
+  overflow: hidden;
+  -webkit-perspective: 1200px;
+  perspective: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display:flex;
+  flex-wrap:wrap;
+  
+}
+.bookmain > div {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.boockup {
+  -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+.book-bookmain {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-animation: 10s rotatingAnimationY linear infinite;
+  animation: 10s rotatingAnimationY linear infinite;
+}
+.book-bookmain > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center center;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+.book-top, .book-bottom, .book-side-bright {
+  background-size: auto auto;
+  background-repeat: repeat;
+  background-position: top left;
+}
+.book-front {
+  background-image: url('../images/book-cover.jpg');
+  width: 306px;
+  height: 413.1px;
+  -webkit-transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(0,0,0) rotateY(0deg);
+  transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(0,0,0) rotateY(0deg);
+}
+.book-side-left {
+  background-image: url('../images/book-spine.jpg');
+  width: 44.37px;
+  height: 413.1px;
+  -webkit-transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(-22.185px, 0, -22.185px) rotateY(-90deg);
+  transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(-22.185px, 0, -22.185px) rotateY(-90deg);
+}
+.book-side-bright {
+  background-image: url('../images/book-side.jpg');
+  width: 44.37px;
+  height: 413.1px;
+  -webkit-transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(283.815px, 0px,-22.185px) rotateY(90deg);
+  transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(283.815px, 0px,-22.185px) rotateY(90deg);
+}
+.book-top {
+  background-image: url('../images/book-top.jpg');
+  background-position: bottom right;
+  width: 306px;
+  height: 44.37px;
+  -webkit-transform: translate3d(-153px, -206.55px ,22.185px) translate3d(0px, -22.185px, -22.185px) rotateX(90deg);
+  transform: translate3d(-153px, -206.55px ,22.185px) translate3d(0px, -22.185px, -22.185px) rotateX(90deg);
+}
+.book-bottom {
+  background-image: url('../images/book-top.jpg');
+  width: 306px;
+  height: 44.37px;
+  -webkit-transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(0px, 390.915px, -22.185px) rotateX(-90deg);
+  transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(0px, 390.915px, -22.185px) rotateX(-90deg);
+}
+.book-back {
+  background-image: url('../images/book-back.jpg');
+  width: 306px;
+  height: 413.1px;
+  -webkit-transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(0,0, -44.37px) rotateY(180deg);
+  transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(0,0, -44.37px) rotateY(180deg);
+}
+#credit {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  z-index: 99;
+  background-color: #fff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: .3rem 1rem;
+  width: 21rem;
+  height: 20px;
+  -webkit-transition: background .2s;
+  transition: background .2s;
+}
+#credit:hover {
+  background-color: #d8d8d8;
+}
+
+
+
+
+
+
+
+

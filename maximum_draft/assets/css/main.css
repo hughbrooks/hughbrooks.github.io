@@ -1,0 +1,328 @@
+* {
+	box-sizing: border-box;
+  /* add a border with !important to view the boxes */
+  border:1px solid red !important;
+}
+
+body {
+  background-color: lightgrey;
+  font-family: akkurat;
+}
+
+.fs-med {
+  font-size: 70px;
+}
+
+.uc {
+  text-transform: uppercase;
+}
+
+.header1 {
+  font-size: 70px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.menu {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header2 {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+}
+
+.contributers {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+
+.show {
+  font-size: 50px;
+  padding-top:20px;
+}
+
+.essay {
+  height: 50px;
+}
+
+.strike::before  {
+  content: " ";
+  height:4px;
+  background-color:red;
+  width:100%;
+  display:block;
+  position:absolute;
+  top:8px;
+}
+
+.strike {
+  display:inline-block;
+  position:relative;
+}
+
+
+
+/* add a height if you want the self-end to be at the bottom*/
+.header {
+  height:50px;
+}
+
+/* set all containers to flex with flex wrap*/
+.container {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+/* gutters are set here */
+.item .content {
+  padding:20px;
+}
+
+.number {
+  text-align:center;
+  padding:20px;
+}
+
+/* set all images  to fill the flex items */
+.item img {
+  width:100%;
+}
+
+/* create helper classes, similar to the w-1of3. These can be used to quickly adjust the alignment of the flex items */
+.self-center {
+  align-self:center;
+}
+
+.self-start{
+  align-self:flex-start;
+}
+
+.self-end {
+  align-self:flex-end;
+}
+
+.align-center {
+  align-items:center;
+}
+
+.align-start {
+  align-items:flex-start;
+}
+
+.align-end {
+  align-items:flex-end;
+}
+
+/* these are helper classes to change the width of the items quickly */
+
+.w-1of1 {flex:0 0 100%;}
+
+.w-1of2 {flex:0 0 50%;}
+
+.w-1of3 {flex:0 0 33.333%;}
+.w-2of3 {flex:0 0 66.666%;}
+
+.w-1of4{flex:0 0 25%;}
+.w-2of4{flex:0 0 50%;}
+.w-3of4{flex:0 0 75%;}
+
+.w-1of5 {flex:0 0 20%;}
+.w-2of5 {flex:0 0 40%;}
+.w-3of5 {flex:0 0 60%;}
+.w-4of5 {flex:0 0 80%;}
+
+.w-1of12 {flex:0 0 8.3333%;}
+
+
+/* Created with http://boockup.marco.land */
+@-webkit-keyframes rotatingAnimationX {
+  0%{
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+}
+@keyframes rotatingAnimationX {
+  0%{
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+}
+@-webkit-keyframes rotatingAnimationY {
+  0%{
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+@keyframes rotatingAnimationY {
+  0%{
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+@-webkit-keyframes rotatingAnimationZ {
+  0%{
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+@keyframes rotatingAnimationZ {
+  0%{
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(211, 211, 211, 1);
+  
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.bookmain {
+  width: 49vw;
+  height: 100vh;
+  overflow: hidden;
+  -webkit-perspective: 1200px;
+  perspective: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display:flex;
+  flex-wrap:wrap;
+}
+.bookmain > div {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.boockup {
+  -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+.book-bookmain {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-animation: 10s rotatingAnimationY linear infinite;
+  animation: 10s rotatingAnimationY linear infinite;
+}
+.book-bookmain > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center center;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+.book-top, .book-bottom, .book-side-right {
+  background-size: auto auto;
+  background-repeat: repeat;
+  background-position: top left;
+}
+.book-front {
+  background-image: url('../images/book-cover.jpg');
+  width: 306px;
+  height: 413.1px;
+  -webkit-transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(0,0,0) rotateY(0deg);
+  transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(0,0,0) rotateY(0deg);
+}
+.book-side-left {
+  background-image: url('../images/book-spine.jpg');
+  width: 44.37px;
+  height: 413.1px;
+  -webkit-transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(-22.185px, 0, -22.185px) rotateY(-90deg);
+  transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(-22.185px, 0, -22.185px) rotateY(-90deg);
+}
+.book-side-right {
+  background-image: url('../images/book-side.jpg');
+  width: 44.37px;
+  height: 413.1px;
+  -webkit-transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(283.815px, 0px,-22.185px) rotateY(90deg);
+  transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(283.815px, 0px,-22.185px) rotateY(90deg);
+}
+.book-top {
+  background-image: url('../images/book-top.jpg');
+  background-position: bottom right;
+  width: 306px;
+  height: 44.37px;
+  -webkit-transform: translate3d(-153px, -206.55px ,22.185px) translate3d(0px, -22.185px, -22.185px) rotateX(90deg);
+  transform: translate3d(-153px, -206.55px ,22.185px) translate3d(0px, -22.185px, -22.185px) rotateX(90deg);
+}
+.book-bottom {
+  background-image: url('../images/book-top.jpg');
+  width: 306px;
+  height: 44.37px;
+  -webkit-transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(0px, 390.915px, -22.185px) rotateX(-90deg);
+  transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(0px, 390.915px, -22.185px) rotateX(-90deg);
+}
+.book-back {
+  background-image: url('../images/book-back.jpg');
+  width: 306px;
+  height: 413.1px;
+  -webkit-transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(0,0, -44.37px) rotateY(180deg);
+  transform: translate3d(-153px ,-206.55px ,22.185px) translate3d(0,0, -44.37px) rotateY(180deg);
+}
+#credit {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  z-index: 99;
+  background-color: #fff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: .3rem 1rem;
+  width: 21rem;
+  height: 20px;
+  -webkit-transition: background .2s;
+  transition: background .2s;
+}
+#credit:hover {
+  background-color: #d8d8d8;
+}
+
+
