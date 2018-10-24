@@ -2,6 +2,12 @@ $(document).ready(function(){
 	console.log("ready!");
 
 
+	$('.title').click(function() {
+	$('.menu span, .contributers span').removeClass('blue');
+  	$('.right').addClass('hide');
+  	$('.book-container').removeClass('hide');
+	});
+
 	$('.click-about').click(function() {
 	$('.menu span, .contributers span').removeClass('blue');
   	$(this).addClass('blue');
