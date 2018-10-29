@@ -28,7 +28,15 @@ body {
   padding: 20px;
 }
 
+.mockup {
+width: 100%;
+}
 
+.purchase {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
 
 .menu {
 	font-size: 20px;
@@ -82,9 +90,11 @@ body {
 
 }
 
+
 .essay .text {
 	font-size: 12px;
 }
+
 
 .text {
   padding-bottom: 1vh;

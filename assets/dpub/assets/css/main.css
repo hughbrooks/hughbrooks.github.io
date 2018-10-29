@@ -1,129 +1,35 @@
 body {
 	background-color:	lightgrey;
 	font-family: silom;
-	font-size: 30px;
+	font-size: 50px;
 }
 
 
-h1 {
-color: grey;
-font-size: 50px;
-position: fixed;
-margin-left: 560px;
-margin-top: 200px;
-}
 
-.repo {
-	max-width: 500px;
-	margin-left: 100px;
-	margin-top: 100px;
+.left, .right {
+	height: 100vh;
+	width: 50vw;
 	position: fixed;
-	
+	overflow: scroll;
+	top:0px;
+}
+
+.left {
+left:0px;
+
+}
+
+.right {
+right:0px;
 }
 
 .paradise {
-	border: 10px solid black;
-	padding: 30px;
-	font-size: 18px;
-	margin-left: 800px;
-	margin-top: 100px;
-	color: red;
-}
-
-.fun {
-	color: blue;
-}
-
-.cool {
-	color: blue;
-}
-
-a {
-	float: right;
-	margin-left: 700px;
-	margin-top: 300px;
-	margin-right: 100px;
-}
-
-.essay {
-	margin-top: 10px;
-}
-
-.max_book_title {
-	color: blue;
-	text-align: center;
-	margin-left: 300px;
-	margin-top: 100px;
-	position: fixed;
-	font-size: 30px;
-
+	color: green;
 }
 
 
 
-
-img {
-	margin-top: -200px;
-	margin-bottom: -100px;
+.repo {
+	max-width: 90vh;
 }
-
-.product {
-	margin-bottom: 120px;
-	margin-top: 300px;
-}
-
-.book1 {
-	max-width: 400px;
-	margin-top: 200px;
-	
-}
-
-.book2 {
-	max-width: 400px;
-	margin-top: 200px;
-	
-}
-
-.book3 {
-	max-width: 400px;
-	margin-top: 200px;
-	
-}
-
-.book4 {
-	max-width: 400px;
-	margin-top: 200px;
-	
-}
-
-.book5 {
-	max-width: 400px;
-	margin-top: 200px;
-	
-}
-
-.book6 {
-	max-width: 400px;
-	margin-top: 200px;
-	
-}
-
-
-.bottomlink {
-	margin-bottom: 100px;
-}
-
-.images {
-	width: 400px;
-	max-width: 400px;
-}
-
-
-
-
-
-
-
-
-
 
